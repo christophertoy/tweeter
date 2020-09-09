@@ -1,0 +1,14 @@
+.page-header {
+  display: flex;
+  height: 400px;
+  justify-content: center;
+  flex-direction: column;
+  align-items:center;
+  background-color: #ff3a33;
+  background-image: url("https://www.transparenttextures.com/patterns/black-thread.png");
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+.name {
+  color: #FFFFFF;
+}

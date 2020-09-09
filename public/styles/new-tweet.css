@@ -1,0 +1,25 @@
+button {
+  background-color :#4056A1;
+  color: #FFFFFF;
+}
+
+.bottom-form {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Bungee', cursive, sans-serif;
+  padding: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+textarea {
+  background-color: #f4f1ec;
+  border: none;
+  outline: none;
+  border-bottom: 4px solid #545149;
+  padding: 10px;
+  resize: none;
+}
