@@ -3,17 +3,23 @@
   background-color: #f4f1ec;
   border: 4px solid #545149;
   margin-top: 16px;
+  margin-bottom:16px;
 }
 
 .tweet-header {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   font-family: 'Source Sans Pro', sans-serif;
   padding: 5px;
   font-size: 24px;
   margin-left: 20px;
   margin-right:20px;
+}
 
+.full-name {
+  display:flex;
+  flex-basis: 90%;
+  margin-left: 10px;
 }
 
 .tweet-footer {
@@ -23,6 +29,10 @@
   font-size: 12px;
   margin-left: 20px;
   padding-bottom: 10px;
+}
+
+.fas {
+margin-top: 10px;
 }
 
 .tweet-body {
@@ -40,6 +50,7 @@
 }
 
 .username {
+  display:flex;
   visibility: hidden;
 }
 
