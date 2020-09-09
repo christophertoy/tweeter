@@ -2,7 +2,7 @@ $(document).ready(function () {
   // --- our code goes here ---
   const $textarea = $('textarea');
   $textarea.on('keyup', function () {
-    const characterInput = $textarea.val().length;
+    const characterInput = $(this).val().length;
     const charactersLeft = 140 - characterInput;
     const characterCount = $(this).siblings().find('.counter').html(charactersLeft);
 
