@@ -7,6 +7,9 @@ nav {
   column-gap: 1.5em;
   justify-content: space-between;
   padding: 40px;
+  position: fixed;
+  width:100%;
+  top:0;
 }
 
 .logo {
