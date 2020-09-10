@@ -27,10 +27,27 @@ margin: auto;
 background-color: #f4f1ec;
 }
 
+/* Desktop Styles */
 
-/* nav {
-  font-family: 'Bungee', cursive, sans-serif;
-} */
+@media only screen and (min-width:768px) {
+
+  body {
+    display:flex;
+    justify-content: space-between;
+  } 
+  
+
+  .page-header {
+    width:30%
+  }
+
+  .container {
+    margin-top: 180px;
+    width: 60%;
+    float: right;
+  }
+
+}
 
 /*
  * Additional CSS can be defined below or in other CSS files, as per instructions

@@ -1,15 +1,50 @@
 .page-header {
+  font-family: 'Source Sans Pro', sans-serif;
   display: flex;
   margin-top:90px;
   height: 400px;
   justify-content: center;
   flex-direction: column;
   align-items:center;
-  background-color: #ff3a33;
-  background-image: url("https://www.transparenttextures.com/patterns/black-thread.png");
+  background-color: #001626;
+  background-image: url("https://www.transparenttextures.com/patterns/concrete-wall-2.png");
   /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 
 .name {
   color: #FFFFFF;
+}
+
+/* Desktop Styles */
+
+@media only screen and (min-width:768px) {
+
+  .page-header {
+    width:25%;
+    margin-top: 200px;
+    height: 300px;
+    display: flex;
+    margin-left: 70px;
+  }
+
+  .avatar {
+    margin-top:10px;
+    display:flex;
+    justify-content: center;
+
+  }
+
+  .avatar img {
+    width: 75%;
+    height:175px;
+    padding:2px;
+
+  }
+
+  .name {
+    margin-bottom: 40px;
+  }
+
+
+
 }
