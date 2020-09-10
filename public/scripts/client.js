@@ -75,7 +75,7 @@ $(document).ready(function () {
   const renderTweets = function (tweets) {
     for (const tweet of tweets) {
       const tweetElement = createTweetElement(tweet);
-      $('#tweets-container').append(tweetElement);
+      $('#tweets-container').prepend(tweetElement);
     }
   }
 
@@ -85,14 +85,20 @@ $(document).ready(function () {
 
   $postForm.on('submit', function(event) {
   event.preventDefault();
-  console.log(event);
+  $('.error-message').children().remove()
+  const textArea = $('#tweet-text').val();
+  if (textArea === '') {
+    return $errorMessage = $('<p>').text("Tweets can't be blank!").appendTo($('.error-message')).slideDown();
+  } else if (textArea.length > 140) {
+    return $errorMessage = $('<p>').text("Tweet is too long! Please keep to under 140 chars!").appendTo($('.error-message')).slideDown(400)
+  }
   const serializedData = $(this).serialize();
-  console.log(serializedData);
 
   // submit Data to server
   $.post('/tweets/', serializedData)
     .then((response) => {
-      console.log(response);
+      loadTweets();
+      $('#tweet-text').val('');
     })
   })
 
