@@ -8,10 +8,10 @@ $(document).ready(function () {
 
 
     if (charactersLeft < 0) {
-      characterCount.css('color', 'red')
+      characterCount.css('color', 'red');
     } else {
-      characterCount.css('color', '#545149')
+      characterCount.css('color', '#545149');
     }
 
-  })
+  });
 });

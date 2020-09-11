@@ -34,6 +34,7 @@ background-color: #f4f1ec;
   body {
     display:flex;
     justify-content: space-between;
+
   } 
   
 
@@ -42,7 +43,7 @@ background-color: #f4f1ec;
   }
 
   .container {
-    margin-top: 180px;
+    margin-top: 175px;
     width: 60%;
     float: right;
   }
