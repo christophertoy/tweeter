@@ -15,3 +15,8 @@ This repository is the starter code for the project: Students will fork and clon
 
 - Express
 - Node 5.10.x or above
+
+## Screenshots
+
+!['Screenshot of tweet compose box'](https://github.com/christophertoy/tweeter/blob/master/docs/Home%20Page.png)
+!['Screenshot of mobile view'](https://github.com/christophertoy/tweeter/blob/master/docs/Mobile-view.png)
