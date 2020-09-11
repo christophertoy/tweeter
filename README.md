@@ -18,5 +18,5 @@ This repository is the starter code for the project: Students will fork and clon
 
 ## Screenshots
 
-!['Screenshot of tweet compose box'](https://github.com/christophertoy/tweeter/blob/master/docs/Home%20Page.png)
+!['Screenshot of tweet compose box'](https://github.com/christophertoy/tweeter/blob/master/docs/Home-page.png)
 !['Screenshot of mobile view'](https://github.com/christophertoy/tweeter/blob/master/docs/Mobile-view.png)
